@@ -1,10 +1,15 @@
 {
   "name": "dockerode-bluebird",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "dockerode bluebird from https://github.com/apocas/dockerode/pull/108",
   "main": "index.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "homepage": "https://github.com/Quobject/dockerode-bluebird",
+  "repository": {
+    "type": "git",
+    "url": "git://github.com/Quobject/dockerode-bluebird.git"
   },
   "author": "Matthias Ludwig",
   "license": "MIT",
