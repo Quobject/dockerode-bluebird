@@ -32,10 +32,6 @@ var data = {
         ]
       }
     }
-
-    //Volumes: {
-    //  '/stuff': {}
-    //}
 };
 
 docker.createContainerAsync(data).then( function(container) {
