@@ -1,0 +1,15 @@
+{
+  "name": "dockerode-bluebird",
+  "version": "1.0.0",
+  "description": "dockerode bluebird from https://github.com/apocas/dockerode/pull/108",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "Matthias Ludwig",
+  "license": "MIT",
+  "dependencies": {
+    "bluebird": "~2.9.34",
+    "dockerode": "~2.2.2"
+  }
+}
