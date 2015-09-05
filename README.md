@@ -36,6 +36,7 @@ var data = {
 
 docker.createContainerAsync(data).then( function(container) {
   console.log('startZookeeper container = ' + container);
+  return container.startAsync();
 }).catch(function(error) {
   console.log('startZookeeper error = ' + error);
 }).finally( function() {
