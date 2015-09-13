@@ -27,4 +27,15 @@ Docker.prototype.getContainer = function () {
   return container;
 };
 
+var _getImage = Docker.prototype.getImage;
+
+Docker.prototype.getImage = function () {
+  var image = _getImage.apply(this, arguments);
+  if (!image.getAsync) {
+    var imagePrototype = Object.getPrototypeOf(image);
+    Bluebird.promisifyAll(imagePrototype);
+  }  
+  return image;
+};
+
 module.exports = Docker;
