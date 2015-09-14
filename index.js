@@ -1,4 +1,6 @@
-﻿'use strict';
+﻿// from https://github.com/d6u/Dockership/blob/master/lib/promisified/docker-promisified.js 
+// Added code for image
+'use strict';
 
 var Bluebird = require('bluebird');
 var Docker = require('dockerode');

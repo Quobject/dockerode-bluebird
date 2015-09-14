@@ -1,5 +1,9 @@
 # dockerode-bluebird
-dockerode bluebird from https://github.com/d6u/Dockership/blob/master/lib/promisified/docker-promisified.js as discussed in https://github.com/apocas/dockerode/pull/108.
+
+[![NPM](https://nodei.co/npm/dockerode-bluebird.png?downloads=true&downloadRank=true)](https://nodei.co/npm/dockerode-bluebird/)
+[![NPM](https://nodei.co/npm-dl/dockerode-bluebird.png?months=6&height=3)](https://nodei.co/npm/dockerode-bluebird/)
+
+See [https://github.com/apocas/dockerode/pull/108](https://github.com/apocas/dockerode/pull/108).
 
 ## Node.js
 

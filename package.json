@@ -1,6 +1,6 @@
 {
   "name": "dockerode-bluebird",
-  "version": "1.0.3",
+  "version": "1.0.4",
   "description": "dockerode bluebird from https://github.com/apocas/dockerode/pull/108",
   "main": "index.js",
   "scripts": {
